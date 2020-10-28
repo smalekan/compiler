@@ -1,0 +1,13 @@
+int #er34 : 90 , #tt78 : 78;
+int #fg23[6] : 9;
+bool #hh11 : true  ;
+real #hh76 : 2.43;
+bool #pp11 : false;
+
+int #aa11 (){
+switch (#tt78)
+				case 0 :{ #er34 = 4;};
+				case 3 : {#er34 = 8 ;};
+				default : {#er34 = 5;} ;
+			end
+}

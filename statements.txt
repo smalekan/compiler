@@ -1,0 +1,29 @@
+	real #ii11:1.1,#jj11,#xx11:10.1; int #aa00:0,#bb11:5,#cc11:5; bool #ee11:false, #yy11:true;
+	
+int #aa11 () { //main function
+		while (((#bb11 .gt #aa00) or else #cc11) and (#bb11 .ne #cc11))
+			switch (#bb11 - #aa00)
+				case 0 : { #ee11=#ee11+1; #cc11=#cc11-1;break;};
+				case 5 :  #aa00=(#aa00+1)*2; ;
+				default : { #yy11+=false; #cc11=#cc11+1;};
+			end
+			;
+
+		if ((#ii11 .le 5.1) and then (#xx11.gt0))
+			{
+				while (#jj11) {
+						#bb11=2*#bb11-#cc11;
+						#jj11=#jj11-5;
+				}
+			}
+		else
+			{
+			if ((#ii11 % 2 .eq 0) or else (#jj11++))
+				{
+					#ee11=true;
+					break;
+				}
+			}
+		#ii11=#ii11+1;	
+		
+}	

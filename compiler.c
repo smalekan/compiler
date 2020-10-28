@@ -1,0 +1,103 @@
+#include <stdio.h>
+
+int main() {
+	// ////////////////// Symbol Table \\\\\\\\\\\\\\\\\\ \\
+
+	int Temp0;
+	int Temp1;
+	int #er34;
+	int #tt78;
+	int Temp2;
+	int Temp3;
+	int *#fg23;
+	int Temp4;
+	int #hh11;
+	double Temp5;
+	double #hh76;
+	int Temp6;
+	int #pp11;
+	int Temp7;
+	int Temp8;
+	int Temp9;
+	int Temp10;
+	int Temp11;
+
+	// ////////////////// Quadruples \\\\\\\\\\\\\\\\\\ \\
+
+Line0:		Temp0 = 90;
+Line1:		if (Temp0) goto Line3;
+Line2:		goto Line3;
+Line3:		Temp1 = 78;
+Line4:		if (Temp1) goto Line6;
+Line5:		goto Line6;
+Line6:		#er34 = Temp0;
+Line7:		#tt78 = Temp1;
+Line8:		Temp2 = 6;
+Line9:		if (Temp2) goto Line11;
+Line10:		goto Line11;
+Line11:		Temp3 = 9;
+Line12:		if (Temp3) goto Line14;
+Line13:		goto Line14;
+Line14:		#fg23[0] = Temp3;
+Line15:		#fg23[1] = Temp3;
+Line16:		#fg23[2] = Temp3;
+Line17:		#fg23[3] = Temp3;
+Line18:		#fg23[4] = Temp3;
+Line19:		#fg23[5] = Temp3;
+Line20:		Temp4 = 1;
+Line21:		if (Temp4) goto Line23;
+Line22:		goto Line23;
+Line23:		#hh11 = Temp4;
+Line24:		Temp5 = 2.43;
+Line25:		if (Temp5) goto Line27;
+Line26:		goto Line27;
+Line27:		#hh76 = Temp5;
+Line28:		Temp6 = 0;
+Line29:		if (Temp6) goto Line31;
+Line30:		goto Line31;
+Line31:		#pp11 = Temp6;
+Line32:		if (#tt78) goto Line65;
+Line33:		goto Line65;
+Line34:		Temp7 = 0;
+Line35:		if (Temp7) goto Line37;
+Line36:		goto Line37;
+Line37:		if (#er34) goto Line39;
+Line38:		goto Line39;
+Line39:		Temp8 = 4;
+Line40:		if (Temp8) goto Line42;
+Line41:		goto Line42;
+Line42:		#er34 = Temp8;
+Line43:		if (#er34) goto Line45;
+Line44:		goto Line45;
+Line45:		Temp9 = 3;
+Line46:		if (Temp9) goto Line48;
+Line47:		goto Line48;
+Line48:		if (#er34) goto Line50;
+Line49:		goto Line50;
+Line50:		Temp10 = 8;
+Line51:		if (Temp10) goto Line53;
+Line52:		goto Line53;
+Line53:		#er34 = Temp10;
+Line54:		if (#er34) goto Line56;
+Line55:		goto Line56;
+Line56:		if (#er34) goto Line58;
+Line57:		goto Line58;
+Line58:		Temp11 = 5;
+Line59:		if (Temp11) goto Line61;
+Line60:		goto Line61;
+Line61:		#er34 = Temp11;
+Line62:		if (#er34) goto Line64;
+Line63:		goto Line64;
+Line64:		goto Line67;
+Line65:		if (null == 4) goto Line37;
+Line66:		if (null == 8) goto Line48;
+Line67:		printf("Process is terminated with no error.\n");
+				getchar();
+				return 0;
+Line68:		printf("Array Error: Index out of bound!\n");
+				getchar();
+			return -1;
+Line69:		printf("Array Error: Invalid array size!\n");
+				getchar();
+			return -2;
+}
